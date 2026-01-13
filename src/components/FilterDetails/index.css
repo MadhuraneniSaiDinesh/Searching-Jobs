@@ -1,0 +1,41 @@
+.filters-group-container {
+  margin-top: 20px;
+}
+
+.filter-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.filter-list {
+  padding: 0;
+  margin: 0;
+}
+
+.filter-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.checkbox-input {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.filter-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f1f5f9;
+  cursor: pointer;
+}
+
+.separator {
+  border: 1px solid #475569;
+  margin: 20px 0;
+}
