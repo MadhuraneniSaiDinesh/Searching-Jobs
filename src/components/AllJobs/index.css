@@ -4,6 +4,8 @@
   background-color: #000000;
   min-height: 100vh;
   padding: 20px;
+  margin: 0px;
+  
 }
 
 .search-input-container {
@@ -54,7 +56,8 @@
 .jobs-list {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
+  flex-shrink: 0;
 }
 
 .job-item {

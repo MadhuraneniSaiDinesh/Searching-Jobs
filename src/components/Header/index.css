@@ -40,6 +40,28 @@
   display: none;
 }
 
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+    color: white;  
+}
+
+.nav-menu-item{
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nav-bar-image:hover {
+  background-color: azure;
+  border-radius: 10px;
+}
+
+
 /* Desktop View */
 @media screen and (min-width: 768px) {
   .nav-bar-mobile-logo-container {
@@ -81,9 +103,7 @@
     padding: 8px 16px;
     cursor: pointer;
   }
-}
-
-.nav-link {
+  .nav-link {
   background-color: lightblue;
   border-radius: 10px;
   padding: 8px 12px;
@@ -99,3 +119,6 @@
   background-color: #4f46e5;
   padding: 10px;
 }
+}
+
+
